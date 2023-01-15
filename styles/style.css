@@ -1,3 +1,287 @@
-p{
-    background-color: black;
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --primary-font: 'Poppins', sans-serif;
+    --peru: #FF900E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header section */
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+nav {
+background-color: #FF900E1A;
+;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1920px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.nav-title {
+    width: 700px;
+    font-size: 50px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+/* banner section */
+.banner-container {
+    text-align: center;
+    background-color: #FF900E1A;;
+
+}
+
+.banner {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.banner-title {
+    width: 700px;
+    font-size: 65px;
+    padding-bottom: 25px;
+}
+
+.banner-details {
+    width: 400px;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 33px;
+
+}
+
+.banner-btn,
+.feature-btn {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    width: 130px;
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+/* features section */
+.features-container {
+    margin-top: 85px;
+    display: flex;
+    gap: 76px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px;
+    gap: 24px;
+}
+
+.feature {}
+
+.feature-title {
+    width: 700px;
+    font-size: 43px;
+    margin-bottom: 24px;
+}
+
+.gray {
+    color: #727272;
+}
+
+.peru {
+    color: #FF900E;
+}
+
+.feature-details {
+    color: #727272;
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+/* feature version */
+.feature-version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 130px;
+}
+
+.feature-version-title {
+    width: 500px;
+    height: 106px;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+
+}
+
+.feature-version-sub-title {
+    width: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.feature-version-details {
+    width: 400px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature-version-image {
+    width: 800px;
+    height: 1070px;
+}
+
+.experience-btn {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    width: 342px;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-text {
+    width: 600px;
+    font-size: 65;
+
+}
+
+/* some facts section */
+.facts-section {
+    margin-top: 130px;
+    margin-left: 240px;
+
+}
+
+.fact-title {
+    width: 258px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.fact-details {
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.fact-section-documents {
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+
+.box {
+    border: 1px solid #FF900E;
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+
+
+}
+
+.box-icon {
+
+    width: 45.22px;
+    height: 45.22px;
+
+
+}
+
+
+
+.box-info {
+    width: 169px;
+    height: 23px;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* sponspor section */
+.sponspor-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+
+.sponspor-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+    
+}
+.sponspor-details{
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    color: #727272;
+}
+.sponspor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+    margin-bottom: 130px;
+    mix-blend-mode: luminosity;
+    opacity: .5px;
+}
+/* security section */
+.security-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 216px;
+}
+.security{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+   background-color: #FFF4E7;
+}
+.security-info{
+    font-size: 20px;
+    color: #424242;
 }
